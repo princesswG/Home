@@ -1,13 +1,41 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+} from "react-router-dom";
+
+
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import HelsinkiFinland from './routes/helsinkifinland';
+import Addguests from './routes/addguests';
+
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>,
+  },
+  
+  {
+    path: "/helsinkifinland",
+    element: <HelsinkiFinland/>,
+  },
+  {
+    path: "/addguests",
+    element: <Addguests/>,
+  },
+]);
+  
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 
