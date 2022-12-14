@@ -7,58 +7,108 @@ export function HomePage(){
          <h2 className="text-dark
               mb-6
               Sentencecase
-              ml-10
-            
-              items-center">Stays in Finland</h2>
-      
-        </div>
+              ml-10  items-center font-bold">Stays in Finland</h2>
+
+
         <div className="py-8 px-4 md:px-20 md:py-16 max-w-7xl">
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+
         <div className=" overflow-hidden rounded-lg" >
-    <div className="w-full">
-            <img 
-            className="rounded-t-lg" 
-            src="https://picsum.photos/400/200"  
-            alt=""/>
-        </div>
-        <div className="bg-gray-100 px-8 py-4 font-mono font-medium">
-                <h3 className="py-2 md:py-4 font-bold text-2xl">
-                    Dummy Project
-                    </h3>
-                <p className="text-md text-gray-800 font-mono" > is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.{""}</p>
-                        </div>
-        </div>
-        <div className="rounded-lg">
-    <div className="w-full">
-            <img 
-            className="rounded-t-lg" 
-            src="https://picsum.photos/400/200"  
-            alt=""/>
-        </div>
-        <div className="bg-gray-100 px-8 py-4 font-mono font-medium">
-                <h3 className="py-2 md:py-4 font-bold text-2xl">
-                    Dummy Project
-                    </h3>
-                <p className="text-md text-gray-800 font-mono" > is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.{""}</p>
-                        </div>
-        </div>
-        <div className="rounded-lg">
-    <div className="w-full">
-            <img 
-            className="rounded-t-lg" 
-            src="https://picsum.photos/400/200"  
-            alt=""/>
-        </div>
-        <div className="bg-gray-100 px-8 py-4 font-mono font-medium">
-                <h3 className="py-2 md:py-4 font-bold text-2xl">
-                    Dummy Project
-                    </h3>
-                <p className="text-md text-gray-800 font-mono" > is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.{""}</p>
-                        </div>
-        </div>
-        </div>
+    <div className="w-full"> <img  className="rounded-t-lg"  src="Pic1.jpg" alt="" width="600" height="600"/></div>
+        <div className="px-4 py-2 ">
+<div className="flex justify-between">
+                <p className="border border-[#B2B2B2]  p-2 text-sm  rounded-full " >SUPER HOST</p>
+                <p className=" p-2 grow-0 text-sm">Entire apartment.2beds</p>
+               <img className="size={5} " src="rate.jpg" alt="" width="20" height="20"/>
+               <p className="text-sm p-2">4.40</p>
+            </div>
+       
+                <h4 className="py-2 md:py-4 font-bold">
+                  Stylist apartment in center of the city
+                    </h4>
+                        </div> </div>
+
+
+                        <div className=" overflow-hidden rounded-lg" >
+    <div className="w-full"> <img  className="rounded-t-lg"  src="Pic2.jpg" alt="" width="600" height="600"/></div>
+        <div className="px-4 py-2 ">
+<div className="flex justify-between">
+                <p className=" p-2 text-sm">Private room</p>
+               <img className="ml-40" src="rate.jpg" alt="" width="20" height="20"/>
+               <p className="text-sm p-2">4.25</p>
+            </div>
+        <h4 className="py-2 md:py-4 font-bold">
+        Cozy, peaceful and private room with...
+                    </h4>
+                        </div> </div>
+
+     <div className="overflow-hidden rounded-lg" >
+    <div className="w-full"> <img  className="rounded-t-lg "  src="Pic3.jpg" alt="" width="600" height="600" /></div>
+        <div className="px-4 py-2 ">
+        <div className="flex justify-between">
+                <p className=" p-2 text-sm">Entire house</p>
+               <img className="ml-40 " src="rate.jpg" alt="" width="20" height="20"/>
+               <p className="text-sm p-2">4.40</p>
+            </div>
+        <h4 className="py-2 md:py-4 font-bold">
+                Modern House in a remote area
+                    </h4>
+                        </div> </div>
+                         </div>
+                         </div>
     
-    </div>
+                  
+                         <div className="py-8 px-4 md:px-20 md:py-16 max-w-7xl">
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+
+        <div className=" overflow-hidden rounded-lg" >
+    <div className="w-full"> <img  className="rounded-t-lg"  src="Pic4.jpg" alt="" width="600" height="600"/></div>
+        <div className="px-4 py-2 ">
+<div className="flex justify-between">
+                <p className="border border-[#B2B2B2]  p-2 text-sm  rounded-full " >SUPER HOST</p>
+                <p className=" p-2 grow-0 text-sm">Entire apartment.2beds</p>
+               <img className="size={5} " src="rate.jpg" alt="" width="20" height="20"/>
+               <p className="text-sm p-2">4.85</p>
+            </div>
+       
+                <h4 className="py-2 md:py-4 font-bold">
+                  Stylist room in design district
+                    </h4>
+                        </div> </div>
+
+
+                        <div className=" overflow-hidden rounded-lg" >
+    <div className="w-full"> <img  className="rounded-t-lg"  src="Pic5.jpg" alt="" width="600" height="600"/></div>
+        <div className="px-4 py-2 ">
+<div className="flex justify-between">
+                <p className=" p-2 text-sm">Private room</p>
+               <img className="ml-40" src="rate.jpg" alt="" width="20" height="20"/>
+               <p className="text-sm p-2">4.54</p>
+            </div>
+        <h4 className="py-2 md:py-4 font-bold">
+        Modern apartment close to nature
+                    </h4>
+                        </div> </div>
+
+                        <div className=" overflow-hidden rounded-lg" >
+    <div className="w-full"> <img  className="rounded-t-lg"  src="Pic6.jpg" alt="" width="600" height="600"/></div>
+        <div className="px-4 py-2 ">
+<div className="flex justify-between">
+                <p className=" p-2 text-sm">Entire house</p>
+               <img className="ml-40" src="rate.jpg" alt="" width="20" height="20"/>
+               <p className="text-sm p-2">4.25</p>
+            </div>
+        <h4 className="py-2 md:py-4 font-bold">
+        House in a remote area
+                    </h4>
+                        </div> </div>
+
+                         </div>
+                         </div>
+    
+
+                         </div>
+  
         </>
     )
 }
