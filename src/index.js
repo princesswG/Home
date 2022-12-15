@@ -14,6 +14,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import HelsinkiFinland from './routes/helsinkifinland';
 import Addguests from './routes/addguests';
+import Search from './routes/search';
 
 
 const router = createBrowserRouter([
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "/addguests",
     element: <Addguests/>,
+  },
+  {
+    path: "/search",
+    element: <Search/>,
   },
 ]);
   

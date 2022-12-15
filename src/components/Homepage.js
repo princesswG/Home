@@ -3,14 +3,14 @@ import React from "react";
 export function HomePage(){
     return(
         <>
-        <div className="homepage">
-         <h2 className="text-dark
+        <div className=" flex justify-between">
+         <h1 className="text-dark
               mb-6
               Sentencecase
-              ml-10  items-center font-bold">Stays in Finland</h2>
-
-
-        <div className="py-8 px-4 md:px-20 md:py-16 max-w-7xl">
+              ml-10  items-center font-bold pb-0">Stays in Finland</h1> 
+              <p className="text-align:right mr-20">12+ stays</p></div>
+             
+        <div className="px-4 md:px-20 md:py-0 max-w-7xl">
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
 
         <div className=" overflow-hidden rounded-lg" >
@@ -107,7 +107,7 @@ export function HomePage(){
                          </div>
     
 
-                         </div>
+                        
   
         </>
     )

@@ -48,7 +48,7 @@ export default function Addguests() {
                   
             <b>Adults</b><br/>Ages 13 or above
             <img class="w-5 h-5 mr-5 rounded-full" src="mins.jpg" alt="Location"/>
-            <img class="w-5 h-5 mr-5 rounded-full" src="plus.jpg" alt="Location"/>
+            <img class="w-5 h-5 ml-5 rounded-full" src="plus.jpg" alt="Location"/>
 
 
                 </a>

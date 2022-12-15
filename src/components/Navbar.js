@@ -86,6 +86,8 @@ export function Navbar(){
           dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent 
           dark:border-gray-700">Add guests</Link>
         </li>
+   
+
       </ul>
     </div>
   </div>
