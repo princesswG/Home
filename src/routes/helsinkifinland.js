@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar } from "../components/Navbar";
 
 
+
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
@@ -14,6 +15,7 @@ export default function HelsinkiFinland() {
   return (
 <>
        <Navbar/>   
+       
     <Menu as="div" className="relative ml-10 inline-block text-left">
       <div>
         <Menu.Button className="inline-flex ml-10 w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100">
@@ -96,6 +98,10 @@ export default function HelsinkiFinland() {
         </Menu.Items>
       </Transition>
     </Menu>
+    
+    
     </>
+   
   )
+ 
 }
