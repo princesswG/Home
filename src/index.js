@@ -14,7 +14,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import HelsinkiFinland from './routes/helsinkifinland';
 import Addguests from './routes/addguests';
-import Search from './routes/search';
+import OuluFinland from './routes/oulufinland';
+import TurkuFinland from './routes/turkufinland';
+
 
 
 const router = createBrowserRouter([
@@ -32,8 +34,16 @@ const router = createBrowserRouter([
     element: <Addguests/>,
   },
   {
-    path: "/search",
-    element: <Search/>,
+    path: "/oulufinland",
+    element: <OuluFinland/>,
+  },
+  {
+    path: "/turkufinland",
+    element: <TurkuFinland/>,
+  },
+  {
+    path: "/vaasafinland",
+    element: <VaasaFinland/>,
   },
 ]);
   

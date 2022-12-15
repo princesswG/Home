@@ -1,6 +1,10 @@
 import React from "react";
 import { Navbar } from "../components/Navbar";
 
+import{
+  Link,
+}
+from "react-router-dom";
 
 
 import { Fragment } from 'react'
@@ -19,7 +23,7 @@ export default function HelsinkiFinland() {
     <Menu as="div" className="relative ml-10 inline-block text-left">
       <div>
         <Menu.Button className="inline-flex ml-10 w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100">
-          LOCATION<br/>Helsinki, Finland
+          LOCATION
           <ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
         </Menu.Button>
       </div>
@@ -35,25 +39,23 @@ export default function HelsinkiFinland() {
       >
         <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
           <div className="py-1">
-            <Menu.Item>
+            {/* <Menu.Item>
               {({ active }) => (
                 
-                <a
-                  href="#"
+                <Link to={"/helsinkifinland"}
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900 flex' : 'text-gray-700 flex',
                     'block px-4 py-2  text-sm'
                      )}>
                 <img class="w-5 h-5 mr-5 rounded-full" src="location.png" alt="Location"/>
               Helsinki, Finland
-                </a>
+                </Link>
                 
               )}
-            </Menu.Item>
+            </Menu.Item> */}
             <Menu.Item>
               {({ active }) => (
-                <a
-                  href="#"
+                <Link to={"/turkufinland"}
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900 flex' : 'text-gray-700 flex',
                     'block px-4 py-2  text-sm'
@@ -61,13 +63,13 @@ export default function HelsinkiFinland() {
                 >
                       <img class="w-5 h-5 mr-5 rounded-full" src="location.png" alt="Location"/>
                 Turku, Finland
-                </a>
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <a
-                  href="#"
+                <Link to={"/oulufinland"}
+                
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900 flex' : 'text-gray-700 flex',
                     'block px-4 py-2  text-sm'
@@ -75,14 +77,14 @@ export default function HelsinkiFinland() {
                 >
                       <img class="w-5 h-5 mr-5 rounded-full" src="location.png" alt="Location"/>
                   Oulu, Finland
-                </a>
+                </Link>
               )}
             </Menu.Item>
             <form method="POST" action="#">
               <Menu.Item>
                 {({ active }) => (
-                  <button
-                    type="submit"
+                  <Link
+                  
                     className={classNames(
                       active ? 'bg-gray-100 text-gray-900 flex' : 'text-gray-700 flex',
                       'block w-full px-4 py-2  text-left text-sm'
@@ -90,7 +92,7 @@ export default function HelsinkiFinland() {
                   >
                       <img class="w-5 h-5 mr-5 rounded-full" src="location.png" alt="Location"/>
                     Vaasa, Finland
-                  </button>
+                  </Link>
                 )}
               </Menu.Item>
             </form>
