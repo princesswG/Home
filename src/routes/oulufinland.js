@@ -13,7 +13,7 @@ export default function OuluFinland(){
          <h1 className="text-dark
               mb-6
               Sentencecase
-              ml-10  items-center font-bold pb-0">Stay in Oulu, Finland</h1> 
+              ml-10  items-center font-bold pb-0">Stay in CongoTown, Liberia</h1> 
               <p className="text-align:right mr-20">12+ stays</p></div>
              
         <div className="px-4 md:px-20 md:py-0 max-w-7xl">

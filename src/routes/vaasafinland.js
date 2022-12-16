@@ -13,7 +13,7 @@ export default function VaasaFinland(){
          <h1 className="text-dark
               mb-6
               Sentencecase
-              ml-10  items-center font-bold pb-0">Stay in Vaasa, Finland</h1> 
+              ml-10  items-center font-bold pb-0">Stay in Paynesville City, Liberia</h1> 
               <p className="text-align:right mr-20">12+ stays</p></div>
              
 

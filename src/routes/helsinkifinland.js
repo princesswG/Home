@@ -62,7 +62,7 @@ export default function HelsinkiFinland() {
                   )}
                 >
                       <img class="w-5 h-5 mr-5 rounded-full" src="location.png" alt="Location"/>
-                Turku, Finland
+                Sinkor, Liberia
                 </Link>
               )}
             </Menu.Item>
@@ -76,7 +76,7 @@ export default function HelsinkiFinland() {
                   )}
                 >
                       <img class="w-5 h-5 mr-5 rounded-full" src="location.png" alt="Location"/>
-                  Oulu, Finland
+                  CongoTown, Liberia
                 </Link>
               )}
             </Menu.Item>
@@ -91,7 +91,7 @@ export default function HelsinkiFinland() {
                     )}
                   >
                       <img class="w-5 h-5 mr-5 rounded-full" src="location.png" alt="Location"/>
-                    Vaasa, Finland
+                    Paynesville, Finland
                   </Link>
                 )}
               </Menu.Item>
