@@ -16,6 +16,7 @@ import HelsinkiFinland from './routes/helsinkifinland';
 import Addguests from './routes/addguests';
 import OuluFinland from './routes/oulufinland';
 import TurkuFinland from './routes/turkufinland';
+import VaasaFinland from './routes/vaasafinland';
 
 
 

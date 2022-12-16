@@ -1,11 +1,15 @@
 import React from "react";
 import { Navbar } from "../components/Navbar";
+import { Footer} from "../components/Footer";
+
+
 
 
 export default function TurkuFinland(){
     return(
         <>
         <Navbar/>
+       
         <div className=" flex justify-between">
          <h1 className="text-dark
               mb-6
@@ -72,7 +76,7 @@ export default function TurkuFinland(){
     
 
                         
-  
+                         <Footer/>
         </>
     )
 }

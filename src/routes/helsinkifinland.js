@@ -83,7 +83,7 @@ export default function HelsinkiFinland() {
             <form method="POST" action="#">
               <Menu.Item>
                 {({ active }) => (
-                  <Link
+                  <Link to={"/vaasafinland"}
                   
                     className={classNames(
                       active ? 'bg-gray-100 text-gray-900 flex' : 'text-gray-700 flex',
