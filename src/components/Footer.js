@@ -12,7 +12,7 @@ export  function Footer(){
     </span>
     <ul class="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>
-            <Link to={"/helsinkifinland"} class="mr-4 hover:underline md:mr-6 ">Helsinki, Finland</Link>
+            <Link to={"/helsinkifinland"} class="mr-4 hover:underline md:mr-6 ">Monrovia, Liberia</Link>
         </li>
         <li>
             <Link to={"/addguests"} class="mr-4 hover:underline md:mr-6"> 
